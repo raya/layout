@@ -1,0 +1,81 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+ 
+.clearfix {
+  display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+  display: block;
+}
+ 
+* html .clearfix {
+  height: 1%;
+}
+
+
+#main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#main img {
+  display: block;
+  margin: 0 auto;
+}
+
+#main form {
+  display:block;
+  margin: 0 auto;
+  width: 500px;
+}
+#main input{
+  margin: 0 auto;
+}
+
+#main form .input-bar {
+  width: 500px;
+}
+
+#main form .lucky {
+  float: right;
+  margin: 0 100px;
+}
+
+#main form .google-search {
+  float: right;
+  margin: 0 100px;
+
+.clear {
+  float: clear;
+}
+nav {
+  background: black;
+  color: grey;
+
+}
+
+nav a {
+  margin: 0 5px 0 5px;
+  color: grey;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
+footer a {
+  color: grey;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
